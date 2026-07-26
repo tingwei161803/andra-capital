@@ -39,13 +39,16 @@
       return '<header class="page-head"><h1>' + esc(t(p.title)) + "</h1>" + sub + "</header>";
     }
 
-    /* ---------- verification status badges (verified / partial / claimed) ---------- */
+    /* ---------- verification status badges (verified / partial / claimed) ----------
+       Status data stays in data.js; SHOW_BADGES controls whether it is rendered. */
+    var SHOW_BADGES = false;
     var STATUS = {
       verified: { icon: "check_circle", label: { en: "Verified", zh: "已驗證" } },
       partial:  { icon: "error",        label: { en: "Partial",  zh: "部分吻合" } },
       claimed:  { icon: "help",         label: { en: "Claimed",  zh: "僅口述" } }
     };
     function badge(status) {
+      if (!SHOW_BADGES) return "";
       var s = STATUS[status] || STATUS.claimed;
       return '<span class="badge badge--' + esc(status) + '">' +
         '<span class="material-symbols-rounded" aria-hidden="true">' + s.icon + "</span>" +
@@ -307,7 +310,7 @@
 
       /* ---- sources: legend + grouped link lists ---- */
       sources: function (p) {
-        var legend = (p.legend || []).map(function (item) {
+        var legend = !SHOW_BADGES ? "" : (p.legend || []).map(function (item) {
           return '<div class="legend__row" data-item>' + badge(item.status) +
             '<span class="legend__desc">' + esc(t(item.label)) + "</span></div>";
         }).join("");

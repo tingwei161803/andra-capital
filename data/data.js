@@ -43,11 +43,12 @@ window.SITE_PAGES = [
       {
         en: "Andra Capital is a growth- and late-stage technology fund founded in 2016 and headquartered at 750 Battery Street, San Francisco. It targets pre-IPO companies in AI, data, cloud, cybersecurity and fintech, and pitches a shorter exit horizon than traditional venture capital.",
         zh: "Andra Capital 成立於 2016 年，總部位於舊金山 750 Battery Street，鎖定 AI、資料、雲端、資安與金融科技的 pre-IPO 公司，主打比傳統創投更短的出場期程。"
-      },
-      {
+      }
+      /* （狀態徽章隱藏期間不顯示這段閱讀提示；資料保留）
+      ,{
         en: "Reading tip: green rows are supported by primary or third-party records; amber rows are the firm's or its partners' own statements; red rows are marketing claims that public records do not (yet) support.",
         zh: "閱讀提示：綠色列有第一手或第三方紀錄支持；黃色列是公司或合夥人自述；紅色列是查無公開紀錄佐證的行銷說法。"
-      }
+      } */
     ],
     sections: [
       {
