@@ -172,8 +172,8 @@ window.SITE_PAGES = [
             role: { en: "Chairman (Taiwan media) / Partner (EN sources)", zh: "董事長（台媒）／合夥人（英文來源）" },
             status: "partial",
             summary: {
-              en: "Andra's public face in Taiwan — banker-turned-executive-turned-investor, NTU adjunct professor, and a fixture at Taiwan AI events. His association with Andra is real (andracapital.com email, media profiles), but he appears on neither the team page nor any SEC filing. Full profile on his own page.",
-              zh: "Andra 在台灣的公開面孔——投行出身、歷任企業高層、現為投資人，台大兼任教授，台灣 AI 活動常客。與 Andra 的關聯屬實（andracapital.com email、媒體側寫），但官網團隊頁與 SEC 申報均未列名。完整側寫見專頁。"
+              en: "Andra's public face in Taiwan — banker-turned-executive-turned-investor, NTU adjunct professor, and a fixture at Taiwan AI events. His association with Andra is real (andracapital.com email, media profiles), but he appears on neither the team page nor any SEC filing.",
+              zh: "Andra 在台灣的公開面孔——投行出身、歷任企業高層、現為投資人，台大兼任教授，台灣 AI 活動常客。與 Andra 的關聯屬實（andracapital.com email、媒體側寫），但官網團隊頁與 SEC 申報均未列名。"
             },
             facts: [
               { claim: { en: "“Chairman of Andra Capital”", zh: "「安卓樂資本董事長」" }, status: "partial",
@@ -260,118 +260,6 @@ window.SITE_PAGES = [
           }
         ]
       }
-    ]
-  },
-
-  /* ================= JONATHAN LIN (article) ================= */
-  {
-    slug: "jonathan-lin",
-    layout: "article",
-    icon: "person",
-    title: { en: "Jonathan Lin", zh: "林家振" },
-    subtitle: {
-      en: "The fullest public picture of Andra's Taiwan-facing principal: a genuinely deep résumé, one title that changes with the language, and portfolio claims that outrun the records.",
-      zh: "Andra 面向台灣的靈魂人物最完整的公開拼圖：一份確實豐富的履歷、一個隨語言變動的頭銜，以及跑在紀錄前面的投資組合說法。"
-    },
-    sections: [
-      {
-        id: "title-question",
-        heading: { en: "Which title?", zh: "頭銜之謎" },
-        blocks: [
-          { type: "p", text: {
-            en: "His public CV (hosted by NTU) and Taiwan media call him “Chairman of Andra Capital” (安卓樂資本董事長). Business-media interviews in both languages also use “Partner”. Meanwhile Andra's own team page lists only two managing partners — neither of them Lin — and SEC filings name only Haba and Tuan.",
-            zh: "他的公開履歷（台大網站）與台灣媒體稱「安卓樂資本董事長」；中英文財經媒體訪談亦稱「合夥人」。但 Andra 官網團隊頁只列兩位經營合夥人（皆非林），SEC 申報的自然人也只有 Haba 與 Tuan。" } },
-          { type: "facts", rows: [
-            { label: { en: "“Chairman” (Taiwan media, own CV)", zh: "「董事長」（台媒、本人履歷）" }, status: "partial",
-              note: { en: "Common honorific framing in Chinese-language coverage; no corresponding officer record in US filings.", zh: "中文語境常見的尊稱式頭銜；美國申報文件中無對應的高管紀錄。" } },
-            { label: { en: "“Partner” (EN interviews, company profiles)", zh: "「合夥人」（英文訪談、公司人物檔案）" }, status: "verified",
-              note: { en: "Affiliation itself is solid: andracapital.com email, sustained media presence as the firm's representative.", zh: "隸屬關係本身可信：使用 andracapital.com email，長期以公司代表身分曝光。" } },
-            { label: { en: "Listed on the firm's team page", zh: "官網團隊頁列名" }, status: "claimed",
-              note: { en: "Not listed as of July 2026.", zh: "截至 2026 年 7 月未列名。" } }
-          ] }
-        ]
-      },
-      {
-        id: "career",
-        heading: { en: "Career (per his public CV)", zh: "經歷（本人公開履歷）" },
-        blocks: [
-          { type: "h3", text: { en: "Finance", zh: "金融" } },
-          { type: "ul", items: {
-            en: [
-              "Deutsche Bank — VP, Asia investment banking; head of Taiwan IB",
-              "Credit Suisse (New York) — associate, investment banking",
-              "UBS — AVP, tech research (mobile/telecom analyst)",
-              "AT&T Taiwan — CFO"
-            ],
-            zh: [
-              "德意志銀行 — 亞洲投銀部副總裁兼台灣投行負責人",
-              "瑞士信貸（紐約總行）— 投銀部協理",
-              "瑞士銀行 — 科技研究團隊助理副總裁（行動通訊分析師）",
-              "美商 AT&T 台灣分公司 — 財務長"
-            ] } },
-          { type: "h3", text: { en: "Operating roles", zh: "產業經營" } },
-          { type: "ul", items: {
-            en: [
-              "Chiu Chin Industrial (Bomy juice group) — chairman & GM",
-              "CoCo (global fresh-drink chain) — general manager",
-              "Lucent Technologies Taiwan — head of marketing"
-            ],
-            zh: [
-              "久津實業集團（波蜜）— 董事長兼總經理",
-              "CoCo 都可 — 總經理",
-              "朗訊科技台灣 — 行銷部主管"
-            ] } },
-          { type: "h3", text: { en: "Investing & boards", zh: "投資與董事職" } },
-          { type: "ul", items: {
-            en: [
-              "Summitview Capital — partner (semiconductor PE)",
-              "Dawei Capital — partner (sports-industry PE)",
-              "Director at Taishin Securities and several TWSE/TPEx-listed companies",
-              "Adjunct professor, NTU College of Management; Academia Sinica BioTReC lists him as consulting expert"
-            ],
-            zh: [
-              "武岳峰資本 — 合夥人（半導體私募基金）",
-              "達為資本 — 合夥人（運動產業私募基金）",
-              "台新證券與多家上市櫃公司（普生、祺驊、豆府、築間等）董事",
-              "台大管理學院兼任教授；中研院生醫轉譯研究中心（BioTReC 網站列為「諮詢專家」）"
-            ] } },
-          { type: "p", text: {
-            en: "Education: Wharton (management program) and National Taiwan University (bio-industrial mechatronics engineering; finance). Program naming varies across his bios.",
-            zh: "學歷：賓大華頓商學院（管理學程）、台大生物機電工程學系與財務金融學系。學程名稱在各版本簡歷中略有出入。" } }
-        ]
-      },
-      {
-        id: "views",
-        heading: { en: "What he says on the record", zh: "公開論述重點" },
-        blocks: [
-          { type: "quote", text: {
-            en: "“Enterprise adoption is the most objective measure of whether AI works.” — WHATs NEXT summit",
-            zh: "「企業端的採用狀況，是衡量 AI 成效的最客觀指標。」— WHATs NEXT 高峰會" } },
-          { type: "ul", items: {
-            en: [
-              "IRR over multiples; chasing multiples stretches holding periods and risk",
-              "Only invest in a sector's top two; require Tier-1 VC backing from Series A on",
-              "Cites Anthropic's revenue ramp ($50M est → $80M actual → $1B → $2.5B in four months) as enterprise-adoption evidence",
-              "Taiwan's opening is the application and solutions layer, not foundation models; software is constrained by education, talent flows and the ecosystem"
-            ],
-            zh: [
-              "IRR 優先於倍數；盲目追倍數會拉長持有期與風險",
-              "只投產業前二名；要求 A 輪起就有一線創投背書",
-              "以 Anthropic 營收曲線（預估 $5,000 萬 → 實際 $8,000 萬 → $10 億 → 四個月 $25 億）佐證企業採用",
-              "台灣的機會在應用與解決方案層、不在基礎模型；軟體受限於教育、人才去處與生態系"
-            ] } },
-          { type: "p", text: {
-            en: "Portfolio caveat: in interviews he names Databricks, Scale AI, Neuralink and Figure AI among Andra's investments — names that carry no independent record (see the Portfolio page). He has also cited a failed freight-AI bet (reported as “CVO”).",
-            zh: "投資組合注意：他在訪談中把 Databricks、Scale AI、Neuralink、Figure AI 列入 Andra 的投資——這些均查無獨立紀錄（見投資組合頁）。他也提過一筆失敗的 AI 貨運投資（報導作「CVO」）。" } }
-        ]
-      }
-    ],
-    refs: [
-      { label: "Public CV (NTU, PDF)", url: "https://cge.ntu.edu.tw/001/Upload/1022/relfile/63286/261297/d2e4d2b1-6cf2-4f00-8004-5fa982605b5f.pdf" },
-      { label: "Meet — Taiwan AI interview", url: "https://meet.bnext.com.tw/articles/view/52840" },
-      { label: "WHATs NEXT coverage", url: "https://srtechmedia.com/news/c5af2af5-bb09-4ffd-8a8f-3a5679eac5d2" },
-      { label: "SIC — strategy deep-dive", url: "https://news.sicglobal.net/p/af8" },
-      { label: "Academia Sinica BioTReC", url: "https://biotrec.sinica.edu.tw/posts/187669" }
     ]
   },
 

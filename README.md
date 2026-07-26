@@ -6,7 +6,7 @@
 
 ## ✨ 功能特色
 
-- **多頁面架構**：總覽、公司概況、主要投資人、林家振專頁、投資組合、SEC 申報、Silicon Valley Coin、來源與方法，共 8 頁，各有獨立 URL 與 SEO meta
+- **多頁面架構**：總覽、公司概況、主要投資人、投資組合、SEC 申報、Silicon Valley Coin、來源與方法，共 7 頁，各有獨立 URL 與 SEO meta
 - **逐項查證徽章**：每個關鍵說法標註 ✅ 已驗證（第一手申報／第三方紀錄）、⚠️ 部分吻合（自述／官網展示）、❓ 僅口述（查無紀錄的文宣說法）
 - **第一手 SEC 數據**：Form D、Form D/A、Form ADV 直接取自 EDGAR 與 IAPD（AUM $476.5M、實募 $350M、260 位投資人、90% 非美資金等）
 - **投資組合證據分級**：A 級（第三方資料庫）／B 級（官網展示與合夥人具名自述）／C 級（僅見訪談文宣）
@@ -17,8 +17,8 @@
 ## 📂 內容結構與資料來源
 
 ```
-├── index.html / company.html / people.html / jonathan-lin.html
-│   portfolio.html / sec.html / svc.html / sources.html   # 8 頁（共用 shell）
+├── index.html / company.html / people.html
+│   portfolio.html / sec.html / svc.html / sources.html   # 7 頁（共用 shell）
 ├── assets/
 │   ├── styles.css    # 編輯風設計 token（深藍墨＋金、serif 標題、深淺雙主題）
 │   ├── shell.js      # 共用 chrome：appbar／跨頁導航／footer／dialog／語言主題狀態
