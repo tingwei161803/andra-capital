@@ -380,6 +380,12 @@ img { max-width: 100%; }
 .footer__links { display: flex; justify-content: center; gap: 10px; }
 .footer__link { padding: 8px; border-radius: 50%; }
 
+/* the other language, reachable without JavaScript */
+.lang-alt-link a {
+  color: var(--on-surface-variant); font-size: .85rem;
+  text-decoration: none; border-bottom: 1px solid var(--outline-variant);
+}
+
 /* ---------- responsive ---------- */
 @media (max-width: 720px) {
   .page { padding: 28px 16px 56px; }
