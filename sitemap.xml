@@ -5,10 +5,10 @@
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://andra-capital.peteraim.com/company.html</loc>
+    <loc>https://andra-capital.peteraim.com/</loc>
   </url>
   <url>
-    <loc>https://andra-capital.peteraim.com/</loc>
+    <loc>https://andra-capital.peteraim.com/company.html</loc>
   </url>
   <url>
     <loc>https://andra-capital.peteraim.com/people.html</loc>
@@ -24,5 +24,26 @@
   </url>
   <url>
     <loc>https://andra-capital.peteraim.com/svc.html</loc>
+  </url>
+  <url>
+    <loc>https://andra-capital.peteraim.com/zh-Hant/</loc>
+  </url>
+  <url>
+    <loc>https://andra-capital.peteraim.com/zh-Hant/company.html</loc>
+  </url>
+  <url>
+    <loc>https://andra-capital.peteraim.com/zh-Hant/people.html</loc>
+  </url>
+  <url>
+    <loc>https://andra-capital.peteraim.com/zh-Hant/portfolio.html</loc>
+  </url>
+  <url>
+    <loc>https://andra-capital.peteraim.com/zh-Hant/sec.html</loc>
+  </url>
+  <url>
+    <loc>https://andra-capital.peteraim.com/zh-Hant/sources.html</loc>
+  </url>
+  <url>
+    <loc>https://andra-capital.peteraim.com/zh-Hant/svc.html</loc>
   </url>
 </urlset>
